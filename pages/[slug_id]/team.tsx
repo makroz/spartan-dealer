@@ -49,7 +49,7 @@ const ciaUsersPage = () => {
     <>
       <DataCrud
         title="Users"
-        modulo="cia_users"
+        modulo="dealer_users"
         columns={fields}
         formState={formState}
         setFormState={setFormState}

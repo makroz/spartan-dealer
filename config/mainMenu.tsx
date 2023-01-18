@@ -1,10 +1,10 @@
 import {
   Home,
   Users,
-  Truck,
   Settings,
   Image,
   ShoppingCart,
+  Gift,
 } from "react-feather";
 export const mainMenu = [
   {
@@ -16,7 +16,7 @@ export const mainMenu = [
   {
     id: "_promotor",
     title: "Promotors",
-    icon: <Truck />,
+    icon: <Gift />,
     link: "/promotors",
   },
   {
