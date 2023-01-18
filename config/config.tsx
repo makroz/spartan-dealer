@@ -5,6 +5,7 @@ const config = {
     appLogoImage: "/assets/images/logo/logo.png",
     API_URL: "http://localhost:8000/api",
     loginRedirect: "/",
+    slugGuard: "/dealer-guard",
     lang: "en",
   },
   auth: {
