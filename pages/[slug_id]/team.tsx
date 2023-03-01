@@ -19,7 +19,7 @@ const ciaUsersPage = () => {
 
   fields["rol"].readOnly = true;
   fields["rol"].value = "team";
-  fields["name"].render = (value, row, key, index) => {
+  fields["name"].render = ({ row }) => {
     return (
       <Avatar
         img=""
@@ -38,7 +38,7 @@ const ciaUsersPage = () => {
   };
   fields["name"].className =
     "whitespace-nowrap text-gray-900 dark:text-white  flex items-start";
-  fields["_actions"].render = (value, row, index) => {
+  fields["_actions"].render = ({ value, row }) => {
     if (value == "del") {
       if (row.rol == "owner") return false;
     }
